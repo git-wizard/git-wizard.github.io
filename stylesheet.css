@@ -4,6 +4,10 @@
   font-family: Century Gothic;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #background-image {
   background-image: url('background.jpg');
   width: 1920px;
@@ -65,10 +69,92 @@ li {
   padding-top: 20%;
 }
 
+.menu-hidden {
+  display: none;
+}
+
 /*******PHONE********/
 
-@media screen and (max-width: 420px) {
-.title {
-  font-size: 18px;
-}
+@media screen and (max-width: 1820px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  #background-image {
+    background-image: url('bg.jpg');
+    width: 1080px;
+    height: 1920px;
+  }
+
+  .title {
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-family: Century Gothic;
+  }
+
+  .mark {
+    color: #18e181;
+    background: none;
+  }
+
+  .mark2 {
+    color: #18e181;
+    background: none;
+  }
+
+  .large-title {
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .menu-btns li {
+    list-style-type: none;
+    display: inline;
+  }
+
+  .menu-btns li a {
+    color: white;
+    font-family: Century Gothic;
+  }
+
+  .menu-btns {
+    display: none;
+  }
+
+  #menu {
+    background-color: black;
+    width: auto;
+    height: 70px;
+  }
+
+  .large-title {
+    display: none;
+  }
+
+  .menu-hidden {
+    color: white;
+    float: right;
+    font-family: Century Gothic;
+    font-size: 25px;
+    padding-top: 16px;
+    padding-right: 50px;
+  }
+
+  .menu-hidden:hover {
+    color: #18e181;
+    cursor: pointer;
+  }
+
 }
