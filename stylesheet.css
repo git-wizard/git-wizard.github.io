@@ -73,7 +73,6 @@ li {
   display: none;
 }
 
-<<<<<<< HEAD
 /*******SCHOOL MONITOR DISPLAY********/
 
 @media screen and (max-width: 1000px) {
@@ -88,7 +87,7 @@ li {
 #background-image #menu .title {
 	padding-left: 10px;
 	padding-top: 8px;
-	font-size: 36px;
+	font-size: 50px;
 }
 
 #background-image #large-page-title .large-title {
@@ -110,20 +109,20 @@ li {
 	float: right;
 	margin-right: 2.5%;
 	margin-top: 8px;
-	font-size: 36px;
+	font-size: 50px;
 }
 
 #background-image #menu .top-menu-bg {
 	background-color: black;
 	width: 1080px;
-	height: 70px;
+	height: 90px;
 	border-bottom: 1px solid #18e181;
 
 }
 
 #background-image #menu .menu-btns {
 	background-color: black;
-	height: 1000px;
+	height: 800px;
 	float: left;
 	width: 1060px;
 	margin-left: 0;
@@ -132,7 +131,7 @@ li {
 }
 
 #background-image {
-	height: 1920px;
+	height: 1900px;
 	width: 1080px;
 	background-image: url('phonebg.jpg');
 
