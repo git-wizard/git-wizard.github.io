@@ -1,43 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>geeks Paradise</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="stylesheet.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="application.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
-<!-- MENU -->
-<div id="background-image">
-<section id="menu">
-  <div class="top-menu-bg">
-  <h1 class="title">Geek<mark class="mark">Paradise</mark></h1>
-  <div class="menu-hidden">Menu</div>
-  </div>
-    <ul class="menu-btns">
-      <li id="color1" class="color1"><a style="color:#18e181;" href="#">Home</a></li>
-      <li id="color2" class="color2"><a href="#">Games</a></li>
-      <li id="color3" class="color3"><a href="#">RC Hobbies</a></li>
-      <li id="color4" class="color4"><a href="#">Contact</a></li>
-    </ul>
-</section>
-<!--TITLE-->
-<section id="large-page-title">
-  <h1 class="large-title"><mark class="mark2">Geek</mark>Paradise</h1>
-</section>
-</div>
 
+    <a href="#" class="menu-btn">
+        <div class="menu-btn-block top"></div>
+        <div class="menu-btn-block middle"></div>
+        <div class="menu-btn-block bottom"></div>
+    </a>
 <script>
 
 $(document).ready(function() {
-	$('.menu-hidden').click(function() {
-    $('.menu-btns').slideToggle('fast');
-  });
+    $('.menu-btn').click(function() {
+        $('.menu-btn-block.top').toggleClass('active');
+        $('.menu-btn-block.middle').toggleClass('active');
+        $('.menu-btn-block.bottom').toggleClass('active');
+    });
+    
 });
 
 </script>
-
 </body>
 </html>
