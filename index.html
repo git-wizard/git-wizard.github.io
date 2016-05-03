@@ -12,8 +12,10 @@
 <!-- MENU -->
 <div id="background-image">
 <section id="menu">
+  <div class="top-menu-bg">
   <h1 class="title">Geek<mark class="mark">Paradise</mark></h1>
   <div class="menu-hidden">Menu</div>
+  </div>
     <ul class="menu-btns">
       <li id="color1" class="color1"><a style="color:#18e181;" href="#">Home</a></li>
       <li id="color2" class="color2"><a href="#">Games</a></li>
@@ -27,9 +29,15 @@
 </section>
 </div>
 
-<div id="games">
+<script>
 
-</div>
+$(document).ready(function() {
+	$('.menu-hidden').click(function() {
+    $('.menu-btns').slideToggle('fast');
+  });
+});
+
+</script>
 
 </body>
 </html>

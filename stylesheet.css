@@ -73,88 +73,78 @@ li {
   display: none;
 }
 
+/*******SCHOOL MONITOR DISPLAY********/
+
+@media screen and (max-width: 1000px) {
+
+
+
+}
+
 /*******PHONE********/
 
-@media screen and (max-width: 1820px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
+@media screen and (max-width:1080px){
+#background-image #menu .title {
+	padding-left: 10px;
+	padding-top: 8px;
+	font-size: 36px;
+}
 
-  body {
-    overflow-x: hidden;
-  }
+#background-image #large-page-title .large-title {
+	display: none;
+}
 
-  #background-image {
-    background-image: url('bg.jpg');
-    width: 1080px;
-    height: 1920px;
-  }
+#background-image #menu .menu-btns li {
+	display: block;
+	padding-top: 60px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
 
-  .title {
-    font-size: 35px;
-    text-align: center;
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
-    color: white;
-    font-family: Century Gothic;
-  }
+#background-image #menu .menu-hidden {
+	display: inline-block;
+	color: white;
+	float: right;
+	margin-right: 2.5%;
+	margin-top: 8px;
+	font-size: 36px;
+}
 
-  .mark {
-    color: #18e181;
-    background: none;
-  }
+#background-image #menu .top-menu-bg {
+	background-color: black;
+	width: 1080px;
+	height: 70px;
+	border-bottom: 1px solid #18e181;
 
-  .mark2 {
-    color: #18e181;
-    background: none;
-  }
+}
 
-  .large-title {
-    color: white;
-  }
+#background-image #menu .menu-btns {
+	background-color: black;
+	height: 1000px;
+	float: left;
+	width: 1060px;
+	margin-left: 0;
+	margin-right: 70%;
+	display: none;
+}
 
-  a {
-    text-decoration: none;
-  }
+#background-image {
+	height: 1920px;
+	width: 1080px;
+	background-image: url('phonebg.jpg');
 
-  .menu-btns li {
-    list-style-type: none;
-    display: inline;
-  }
+}
 
-  .menu-btns li a {
-    color: white;
-    font-family: Century Gothic;
-  }
+#background-image #menu .menu-btns li a {
+	font-size: 40px;
+}
 
-  .menu-btns {
-    display: none;
-  }
-
-  #menu {
-    background-color: black;
-    width: auto;
-    height: 70px;
-  }
-
-  .large-title {
-    display: none;
-  }
-
-  .menu-hidden {
-    color: white;
-    float: right;
-    font-family: Century Gothic;
-    font-size: 25px;
-    padding-top: 16px;
-    padding-right: 50px;
-  }
-
-  .menu-hidden:hover {
-    color: #18e181;
-    cursor: pointer;
-  }
+.menu-hidden:hover {
+	color: #18e181;
+	cursor: pointer;
+	transition: all 200ms ease;
+}
 
 }
