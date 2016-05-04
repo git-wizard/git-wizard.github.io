@@ -1,18 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+  <title>GeekParadise</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" media="only screen and (max-device-width:1080px)"/>
 </head>
 <body>
-    <div id="circle">
-    <a href="#" class="menu-btn">
-        <div class="menu-btn-block top"></div>
-        <div class="menu-btn-block middle"></div>
-        <div class="menu-btn-block bottom"></div>
-    </a>
-    </div>
+
+<section id="top-menu">
+<!--Title-->
+<h1 class="title">Geek<mark class="mark1">Paradise</mark></h1>
+
+<!--Phone menu button-->
+<div id="circle">
+  <a href="#" class="menu-btn">
+    <div class="menu-btn-block top"></div>
+    <div class="menu-btn-block middle"></div>
+    <div class="menu-btn-block bottom"></div>
+  </a>
+</div>
+<!--menu-->
+<ul class="menu">
+  <li><a class="home" href="https://github.com/git-wizard">Github</a></li>
+  <li><a class="games" href="#">Games</a></li>
+  <li><a class="RC Hobbies" href="#">RC Hobbies</a></li>
+  <li><a class="about-me" href="#">About Me</a></li>
+  <li><a class="contact" href="#">Contact</a></li>
+</ul>
+<!--Large Title-->
+<h1 class="large-title">Geek<mark class="mark1">Paradise</mark></h1>
+</section>
+<!--Second Page-->
+<section id="page-two">
+<!--Page two header-->
+<div class="white-bg">
+<h1 class="header-pTwo">####Games</h1>
+<!--Main Page-->
+<h1 class="par-title parHeaders">Firewatch:</h1>
+<p class="firstP Par"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Morbi tincidunt lorem non hendrerit porta. Vestibulum at massa dictum elit
+  elementum aliquam. In enim est, luctus ac arcu at, malesuada tristique magna.
+  Cras interdum libero eget aliquet porttitor. Morbi suscipit turpis in lacus
+  semper, nec rutrum mauris bibendum. Quisque placerat quam at lacus venenatis
+  vehicula. Curabitur vitae venenatis dui, in viverra tortor. Curabitur tortor
+  leo, elementum ac risus in, faucibus feugiat diam. Ut pellentesque nisl purus,
+  sit amet pretium lorem lobortis dictum. Curabitur at nisl orci. Cras fringilla,
+  orci eget dapibus ultricies, neque felis mattis elit, at placerat justo neque
+  non ex.</b></p>
+<h1 class="par-title-two parHeaders">Fallout 4:</h1>
+<p class="secondP Par"><b>Donec ut aliquet nulla. Ut tempus ante eu velit
+  vehicula, euismod semper diam condimentum. Nam ante urna, viverra in
+  venenatis id, pellentesque et orci. Aliquam erat volutpat. Praesent in
+  ex dapibus, aliquet lorem eu, laoreet velit. Proin sagittis lorem iaculis
+  dolor placerat ornare. Fusce tempus ullamcorper congue. Cras congue ut
+  urna ut suscipit.</b></p>
+<h1 class="par-title-three parHeaders">No man's sky:</h1>
+<p class="thridP Par"><b>Morbi semper sodales metus, vel dapibus lectus. In hac
+  habitasse platea dictumst. Curabitur tristique dui eget dignissim
+  condimentum. Suspendisse imperdiet tempor sodales. Quisque nisi neque,
+  condimentum scelerisque scelerisque viverra, condimentum et libero.
+  Phasellus a aliquam ligula. Maecenas sit amet nibh ac ante convallis gravida.
+  Duis vulputate justo libero, vel ultricies massa viverra a. Nunc sit amet
+  dolor erat. Aliquam interdum suscipit velit sit amet convallis. Sed libero
+  lacus, dictum in tincidunt et, accumsan ut lorem. Sed vel maximus purus,
+  quis condimentum justo.</b></p>
+</div>
+</section>
 <script>
 
 $(document).ready(function() {
@@ -21,7 +77,11 @@ $(document).ready(function() {
         $('.menu-btn-block.middle').toggleClass('active');
         $('.menu-btn-block.bottom').toggleClass('active');
     });
-    
+
+    $('.games').click(function() {
+      $('html, body').animate({scrollTop: 955});
+    });
+
 });
 
 </script>
