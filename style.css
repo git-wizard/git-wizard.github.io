@@ -11,7 +11,8 @@
     display: block;
     width: 48px;
     height: 36px;
-    margin: 20% auto 0 auto;
+    margin: 10% auto 0 auto;
+    float: left;
 }
 
 .menu-btn-block {
