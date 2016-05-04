@@ -3,16 +3,19 @@
     padding: 0;
 }
 
+body {
+    background-color: white;
+}
+
 .menu-btn > div {
     margin: 6px 0px;
 }
 
 .menu-btn {
     display: block;
-    width: 48px;
+    width: 40px;
     height: 36px;
-    margin: 10% auto 0 auto;
-    float: left;
+    margin: 20% auto 0 auto;
 }
 
 .menu-btn-block {
@@ -21,7 +24,7 @@
     height: 6px;
     background-color: #09f;
     border-radius: 3px;
-    transform-origin: 12% 50%;
+    transform-origin: 10% 30%;
 }
 
 .menu-button-block.middle {
@@ -30,7 +33,7 @@
 }
 
 .menu-btn-block.top.active {
-    transform: rotate(40deg);
+    transform: rotate(38deg);
     width: 50px;
 }
 
@@ -39,8 +42,19 @@
 }
 
 .menu-btn-block.bottom.active {
-    transform: rotate(-40deg);
+    transform: rotate(-38deg);
     width: 50px;
 }
 
+#circle {
+    background-color: #ececec;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 20% auto 0 auto;
+    box-shadow: 2px 2px 2px #111;
+}
 
+.menu-btn {
+    padding-top: 19px;
+}
