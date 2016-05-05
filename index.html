@@ -78,19 +78,11 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: 0});
     });
 
-    var numScroll = 1
 
     $('.menu-btn').on('click', function() {
-      $('.menu').slideToggle('fast', numScroll + 1);
+      $('.menu').slideToggle('fast');
       $('.large-title').addClass('hidden-title');
     });
-
-    if(numScroll == 2, 4, 6, 8, 10, 12, 14) {
-      $('.large-title').removeClass('hidden-title');
-    }
-    else {
-      $('.large-title').addClass('hidden-title');
-    }
 
     if(window < $(window).width(480)) {
       $('.games').click(function() {
