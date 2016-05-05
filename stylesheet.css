@@ -129,7 +129,7 @@ body {
 }
 
 /******Phone Resize*******/
-@media handheld {
+@media screen and (max-width:480px) {
 
   .menu-btn > div {
       margin: 6px 0px;
