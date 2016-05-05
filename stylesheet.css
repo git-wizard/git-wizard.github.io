@@ -10,7 +10,7 @@
 body {
   background-image: url('img2.jpg');
   width: auto;
-  height: 955px;
+  height: auto;
   overflow-x: hidden;
   position: absolute;
 }
@@ -35,6 +35,7 @@ body {
 }
 
 .menu {
+  position: inline-block;
   float: right;
   margin: 1% auto 1% auto;
 }
@@ -84,6 +85,7 @@ body {
 }
 
 .Par {
+  font-size: 18px;
   margin: auto 2% auto 2%;
   padding-bottom: 70px;
   color: black;
@@ -139,7 +141,7 @@ body {
       display: block;
       width: 40px;
       height: 36px;
-      margin: 20% auto 0 auto;
+      margin: 0 auto 0 auto;
   }
 
   .menu-btn-block {
@@ -171,16 +173,77 @@ body {
   }
 
   #circle {
-      background: #ececec;
-      border-radius: 50%;
+      background: #111;
       height: 80px;
       width: 80px;
-      margin: 20% auto 0 auto;
+      margin: 0 78% 0 auto;
       box-shadow: 2px 2px 2px #111;
+      position: fixed;
   }
 
   .menu-btn {
       padding-top: 19px;
   }
+
+  .title {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+    margin-top: 0;
+    width: 480px;
+    height: 720px;
+    background-color: #111;
+    position: static;
+  }
+
+  .menu li {
+    margin-top: 15%;
+    text-align: center;
+    display: block;
+    padding: 20px;
+  }
+
+  .large-title {
+    padding-top: 250px;
+    position: static;
+  }
+
+  .hidden-title {
+    display: none;
+  }
+
+  #top-menu {
+    width: auto;
+    height: 720px;
+  }
+
+  #page-two {
+    width: auto;
+    height: 720px;
+  }
+
+  .white-bg {
+    background-color: white;
+    width: auto;
+    height: 720px;
+    margin: 0 0 0 0;
+  }
+
+  .Par {
+    font-size: 11px;
+  }
+
+  .parHeaders {
+    font-size: 18px;
+  }
+
+  .header-pTwo {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+
 
 }
