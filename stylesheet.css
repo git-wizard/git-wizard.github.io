@@ -16,7 +16,7 @@ body {
 #top-menu {
     background-image: url('images/top-bg.jpg');
     width: auto;
-    height: 955px;
+    height: auto;
 }
 
 #title {
