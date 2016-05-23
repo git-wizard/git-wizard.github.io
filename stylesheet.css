@@ -34,9 +34,19 @@ body {
     color: white;
 }
 
+#title a:hover {
+    transition: all 400ms ease-in-out;
+    color: #0ff0b2;
+}
+
 .clr_change {
     background: transparent;
     color: #0ff0b2;
+}
+
+.clr_change_two {
+    background: transparent;
+    color: #159957;
 }
 
 #menu {
@@ -68,8 +78,8 @@ body {
     color: white;
     font-size: 32px;
     margin-left: 42%;
-    padding-top: 16%;
-    padding-bottom: 15px;
+    padding-top: 15%;
+    padding-bottom: 30px;
 }
 
 #top_header {
@@ -100,4 +110,102 @@ body {
 #btn_gh a:hover {
     transition: all 200ms ease;
     color: #0ff0b2;
+}
+
+#page_two {
+    background-color: white;
+    width: auto;
+    height: 955px;
+}
+
+#scnd_page_top {
+    background-image: linear-gradient(120deg, #155799, #159957);
+    width: auto;
+    height: 300px;
+}
+
+#project_title {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.par_project {
+    color: #f4f4f4;
+    font-size: 24px;
+    text-align: center;
+}
+
+.project {
+    color: #159957;
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.seperator_ {
+    margin-left: 18%;
+    margin-right: 18%;
+    width: auto;
+    height: 655px;
+}
+
+.method-text {
+    padding: 7px;
+}
+
+.headers {
+    color: #159957;
+    font-size: 20px;
+}
+
+#lst_items {
+    padding: 2px;
+    padding-left: 20px;
+}
+
+#lst_items {
+    list-style-type: none;
+}
+
+#members-page {
+    background-color: white;
+    width: auto;
+    height: 955px;
+}
+
+#thrd_page_top {
+    background-image: linear-gradient(120deg, #155799, #159957);
+    width: auto;
+    height: 300px;
+}
+
+#members_title {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.par_members {
+    color: #f4f4f4;
+    font-size: 24px;
+    text-align: center;
+}
+
+#members-lst {
+    padding-left: 20px;
+}
+
+#members-lst li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sep {
+    padding: 20px;
 }
