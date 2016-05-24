@@ -209,3 +209,43 @@ body {
 #sep {
     padding: 20px;
 }
+
+@media screen and (max-width: 1650px) {
+    .seperator_ {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .project {
+       font-size: 20px; 
+    }
+    .headers {
+        font-size: 18px;
+    }
+    .method-text {
+        font-size: 15px;
+    }
+    #project_text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #top-menu {
+        width: auto;
+        height: 955px;
+    }
+    #resize_ {
+        background: rgb(54, 25, 25, .00004);
+        height: 60px;
+        width: auto;
+        border-bottom: 1px solid white;
+        position: fixed;
+    }    
+    #title {
+        font-size: 25px;
+        padding: 10px;
+        padding-left: 10px;
+        float: left;
+    }
+
+}
