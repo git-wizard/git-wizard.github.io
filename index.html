@@ -1,129 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chemical Discharge - Crest Award Project Website</title>
+    <title>Logo's</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="js\jquery-1.12.4.min.js"></script>
 </head>
 <body>
-
-
-<!--Menu Page-->
-<section id="top-menu">
-<!--Browser resize-->
-<div id="resize_">
-<!--Title-->
-<h1 id="title"><a href="#">Chemical Discharge</a></h1>
-<!--Menu-->
-<ul id="menu">
-    <li><a class="page_one" href="#">GITHUB</a></li>
-    <li><a class="page_two" href="#">PROJECT</a></li>
-    <li><a class="page_three" href="#">MEMBERS</a></li>
-    <li><a class="page_four" href="#">CREST AWARD</a></li>
-    <li><a class="page_five" href="#">OUR WORK</a></li>
-</ul>
+    
+<section id="first_top">
+<!--MENU-->
+<div id="top">
+    <h1 class="title">Wizard's Logos</h1>
+    
+    
+    
+    <ul id="menu">
+        <li class="color-chng"><a style="color:#6fffa9;" href="#">Download: </a></li>
+        <li><a href="#">First Logo</a></li>
+        <li><a href="#">Second Logo</a></li>
+        <li><a href="#">Third Logo</a></li>
+        <li><a href="#">Fourth Logo</a></li>
+        <li><a href="#">Fifth Logo</a></li>
+    </ul>
 </div>
-<!--Large Title-->
-<h1 id="lrg_title">Chemical Discharge</h1>
-<header id="top_header">Visit my <mark class="clr_change">Github </mark> page here:</header>
-<!--Github button-->
-<div id="btn_gh"><a href="https://github.com/git-wizard">GITHUB</a></div>
+
+<img class="logoOne" src="pictures/logo-awesome.png">
+
 </section>
+<!--
+<section id="first logo">
+    <img class="logoOne" src="pictures/logo-awesome.png">
+</section>-->
 
 
 
-<!--Second Page - Project-->
-<section id="page_two">
-<!--Seperator-->
-<div id="scnd_page_top">
-<!--Title-->
-<h1 id="project_title">Our crest award project - explanation.</h1>
-<p class="par_project">A brief explanation of what our project was to achieve.</p>
-</div>
-<div class="seperator_">
-<!--Header-->
-<header class="project">### An explanation of our project:</header>
-<!--Text-->
-<p id="project_text">Our project was to see if we could re-create a working battery which, potentially, could power at least a light bulb. We were able to power an LED, however, we were not able to power a ligh bulb therefore did not even try powering anything larger. Though we wish we could do so. The battery we created was made using lemons. To be able to do so we researched a few methods for creating batteries and found that it was very hard to power anything larger than an LED, we did not stop there however, we continued to research methods of creating a battery, all were out of our reach.</p>
-<!--Method-->
-<header class="project">### Our Method for creating a lemon battery:</header>
-<!--Method text-->
-<p class="method-text"><mark class="clr_change_two">1-</mark> We were to retrieve a few resources from our teacher.</p>
-<!--Item title-->
-<header class="headers">Needed Items:</header>
-<!--Item list-->
-<ul id="lst_items">
-    <li><mark class="clr_change">1)</mark> Lemons</li>
-    <li><mark class="clr_change">2)</mark> Zinc</li>
-    <li><mark class="clr_change">3)</mark> Copper</li>
-    <li><mark class="clr_change">4)</mark> Wires with crocodile clips</li>
-    <li><mark class="clr_change">5)</mark> Voltmeteter</li>
-</ul>
-<!--Method part 2-->
-<p class="method-text"><mark class="clr_change_two">2-</mark> We inserted, on one end of the lemon, a piece of zinc; on the other a piece of copper.</p>
-<!--Method part 3-->
-<p class="method-text"><mark class="clr_change_two">3-</mark> We then clipped on two wires, on on either side, to the copper and zinc.</p>
-<!--Method part 4-->
-<p class="method-text"><mark class="clr_change_two">4-</mark> The other end of both wires was inserted into the voltmeter to test the voltage.</p>
-<!--Conclusion of test-->
-<header class="project">### Result:</header>
-<!--Result Text-->
-<p class="method-text">We managed to get around 0.9V of electricity from one lemon, using two; we were able to power an LED, however, it was not very bright. We then used 3 instead, which worked a lot better. (This part of the experiment was not done at school)</p>
-</div>
-</section>
-
-
-<!--Members page-->
-<section id="members-page">
-<!--Third page - seperator-->
-<div id="thrd_page_top">
-<!--Title third page-->
-<h1 id="members_title">Our project members</h1>
-<p class="par_members">This part is dedicated to the members of the group and their roles.</p>
-</div>
-<!--Another seperator-->
-<div class="seperator_">
-<!--Header for members-->
-<header class="project">### Our project members - list:</header>
-<!--List of members-->
-<ul id="members-lst">
-    <mark class="clr_change_two"><li>Alex Wzorek</li>
-    <li>Archie King</li>
-    <li>Koizumi Do-oma</li>
-    <li>Ethan Dockerill</li></mark>
-</ul>
-<!--Roles each of us played-->
-<header class="project">### Each of our roles:</header>
-<div id="sep">
-<!--Alex-->
-<p class="method-text"><mark class="clr_change_two">Acid Research-</mark> In charge of researching acids that are used in batteries.</p>
-<!--Archie-->
-<p class="method-text"><mark class="clr_change_two">Process-</mark> In charge of researching the best way to make a homemade battery.</p>
-<!--Koizumi-->
-<p class="method-text"><mark class="clr_change_two">How batteries work-</mark> In charge of researching how batteries work and what type of batteries can be bought.</p>
-<!--Ethan-->
-<p class="method-text"><mark class="clr_change_two">Apparatus-</mark> In charge of finding the best equipment to use for our project.</p>
-</div>
-<!--Members conclusion-->
-<h1 class="headers">Conclusion: </h1>
-<p class="method-text">Each team member played a vital part to our project and did a great job researching everything needed to complete the task!</p>
-</div>
-</section>
-
-<!--Jquery-->
-<script>
-
-$(document).ready(function() {
-  
-$('.page_two').click(function() {
-    $('body', 'html').animate({scrollTop: 955}, 'slow');
-});
-$('.page_three').click(function() {
-    $('body', 'html').animate({scrollTop: 1910}, 'slow');
-});
-
-});
-
-</script>
+<!--JQUERY-->
+<style>
+    
+</style>
 </body>
-</html>
+<html>
