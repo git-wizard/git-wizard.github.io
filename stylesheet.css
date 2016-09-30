@@ -4,12 +4,11 @@
 }
 
 
+/* custom font */
 @font-face {
     font-family: LemonMilk;
     src: url("LemonMilk.otf");
 }
-
-
 
 
 .switch {
@@ -63,8 +62,6 @@ input:checked + .slider:before {
   transform: translateX(14px);
 }
 
-
-
 .slider.round {
   border-radius: 34px;
 }
@@ -73,7 +70,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-
+/* box around the switch */
 
 #switch_box {
     background-color: #2b2b2b;
@@ -81,9 +78,11 @@ input:checked + .slider:before {
     height: 120px;
     position: fixed;
     float: left;
-    margin-top: 20%;
+    margin-top: 18%;
     border-radius: 0 7px 7px 0;
 }
+
+/* Dark mode title */
 
 .dk-md-title {
     font-family: LemonMilk;
@@ -92,6 +91,8 @@ input:checked + .slider:before {
     margin-left: 15%;
     margin-top: 10%;
 }
+/* Dark mode logo */
+
 
 .moon {
     width: 25px;
@@ -100,6 +101,49 @@ input:checked + .slider:before {
     margin-top: 10%;
 }
 
+/* Dark mode class toggle */
+
 .bg {
     background-color: #333333;
+}
+
+
+
+/********* Top menu *********/
+
+.top {
+    width: auto;
+    height: 75px;
+    background-color: #36ce9a;
+}
+
+.title {
+    font-size: 37px;
+    font-family: LemonMilk;
+    color: #3e8d72;
+    position: fixed;
+    margin-left: 15%;
+    margin-top: .5%;
+}
+
+.logo-main {
+    width: 180px;
+    height: 160px;
+    margin-left: 45%;
+    position: fixed;
+}
+
+
+.menu-main {
+  float: right;
+}
+
+.menu_child  {
+  list-style-type: none;
+}
+
+.menu_child a {
+  color: white;
+  text-decoration: none;
+  font-family: LemonMilk;
 }
