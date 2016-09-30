@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Logo's</title>
-    <link rel="stylesheet" href="stylesheet.css">
+
+<title>FPV Drone Racing</title>
+<link rel="stylesheet" href="stylesheet.css">
+<script src="jquery-3.1.1.min.js"></script>
+
 </head>
-<body>
-    
-<section id="first_top">
-<!--MENU-->
-<div id="top">
-    <h1 class="title">Wizard's Logos</h1>
-    
-    
-    
-    <ul id="menu">
-        <li class="color-chng"><a style="color:#6fffa9;" href="#">Download: </a></li>
-        <li><a href="#">First Logo</a></li>
-        <li><a href="#">Second Logo</a></li>
-        <li><a href="#">Third Logo</a></li>
-        <li><a href="#">Fourth Logo</a></li>
-        <li><a href="#">Fifth Logo</a></li>
-    </ul>
-</div>
-
-<img class="logoOne" src="pictures/logo-awesome.png">
-
-</section>
-<!--
-<section id="first logo">
-    <img class="logoOne" src="pictures/logo-awesome.png">
-</section>-->
-
+<body> 
+<label id="switch_box">
+<img class="moon" src="images/moon-dark.png"/>
+<h1 class="dk-md-title">DARK MODE</h1>
+<label class="switch">
+  <input class="btn" type="checkbox">
+  <div class="slider round"></div>
+</label>
+</label>
 
 
 <!--JQUERY-->
-<style>
-    
-</style>
+<script>
+
+$(document).ready(function() {
+    $('.btn').on('click', function() {
+        $('body').toggleClass('bg');
+    });
+});
+
+</script>
+
 </body>
-<html>
+</html>
+
+
