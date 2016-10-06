@@ -111,39 +111,3 @@ input:checked + .slider:before {
 
 /********* Top menu *********/
 
-.top {
-    width: auto;
-    height: 75px;
-    background-color: #36ce9a;
-}
-
-.title {
-    font-size: 37px;
-    font-family: LemonMilk;
-    color: #3e8d72;
-    position: fixed;
-    margin-left: 15%;
-    margin-top: .5%;
-}
-
-.logo-main {
-    width: 180px;
-    height: 160px;
-    margin-left: 45%;
-    position: fixed;
-}
-
-
-.menu-main {
-  float: right;
-}
-
-.menu_child  {
-  list-style-type: none;
-}
-
-.menu_child a {
-  color: white;
-  text-decoration: none;
-  font-family: LemonMilk;
-}
