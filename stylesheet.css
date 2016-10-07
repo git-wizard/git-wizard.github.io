@@ -114,5 +114,28 @@ input:checked + .slider:before {
 .btn {
     float: right;
     padding: 20px;
-    margin-right: 20%;
+    margin-right: 2%;
+}
+
+.one {
+  background-color: #fff;
+}
+
+.two {
+  background-color: #337ab7;
+}
+
+.three {
+  background-color: #5cb85c;
+}
+
+.four {background-color: #5bc0de;
+}
+
+.five {
+  background-color: #f0ad4e;
+}
+
+.six {
+  background-color: #d9534f;
 }
