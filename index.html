@@ -1,72 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <title>FPV Drone Racing</title>
 <link rel="stylesheet" href="stylesheet.css">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 <script src="jquery-3.1.1.min.js"></script>
-
 </head>
 <body> 
-
-<!--Top menu, title, logo
+<!--Top menu, title, logo-->
 <section class="top">
-<h1 class="title">Wizard FPV</h1>
-<img class="logo-main" src="images/logo.png"/>
 <div class="menu">
-    <ul class="menu-main">
-        <li class="menu_child"><a href="#">Home</a></li>
-        <li class="menu_child"><a href="#">Videos</a></li>
-        <li class="menu_child"><a href="#">About me</a></li>
-        <li class="menu_child"><a href="#">Contact</a></li>
-    </ul>
+    <div id="tabs">
+        <div class="tab"></div>
+        <div class="tab"></div>
+        <div class="tab"></div>
+    </div>
+    <div class="menu-wrapper">
+        <ul class="menu-main">
+            <li class="menu_child"><a href="#">Home</a></li>
+            <li class="menu_child"><a href="#">Videos</a></li>
+            <li class="menu_child"><a href="#">About me</a></li>
+            <li class="menu_child"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<!--Large Title-->
+<div id="title-wrapper">
+<div class="title">Wizard FPV</h1>
+<div class="fpv-racer-title">Living The FPV Life</h1>
+
 </div>
 </section>
--->
 
-<!-- Standard button -->
-<button type="button" class="btn btn-default">Default</button>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-danger">Danger</button>
-
-<!--Dark Mode-->
+<!--Dark Mode
 <label id="switch_box">
-<img class="moon" src="images/moon-dark.png"/>
+<img class="moon" src="images/moon-dark.png"/>s
 <h1 class="dk-md-title">DARK MODE</h1>
 <label class="switch">
   <input class="btn-dark" type="checkbox">
   <div class="slider round"></div>
 </label>
 </label>
-
+-->
 <!--JQUERY-->
 <script>
 
 $(document).ready(function() {
     $('.btn-dark').on('click', function() {
         $('body').toggleClass('bg');
-    });
-    $('.btn-default').on('click', function() {
-        $('body').toggleClass('one');
-    });
-    $('.btn-primary').on('click', function() {
-        $('body').toggleClass('two');
-    });
-    $('.btn-success').on('click', function() {
-        $('body').toggleClass('three');
-    });
-    $('.btn-info').on('click', function() {
-        $('body').toggleClass('four');
-    });
-    $('.btn-warning').on('click', function() {
-        $('body').toggleClass('five');
-    });
-    $('.btn-danger').on('click', function() {
-        $('body').toggleClass('six');
     });
 });
 

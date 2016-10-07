@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-}
+    overflow-x: hidden;
 
+}
 
 /* custom font */
 @font-face {
@@ -111,10 +112,78 @@ input:checked + .slider:before {
 
 /********* Top menu *********/
 
+.top {
+  height: 950px;
+  width: 1920px;
+  background-image: url('images/background.jpg');
+}
+
+.menu {
+  width: 60px;
+  height: 50px;
+  background-color: #666;
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+}
+
+.tab {
+  background-color: #fff;
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+}
+
+#tabs {
+  padding-top: 13%;
+  margin-left: 17%;
+}
+
+
+.menu-wrapper {
+  display: none;
+}
+
+.menu:hover {
+  transition: all ease-in-out 100ms;
+  opacity: 0.3;
+}
+
+
+.title {
+  font-size: 50px;
+  font-family: LemonMilk;
+  color: #555;
+}
+
+.fpv-racer-title {
+  font-size: 24px;
+  margin-top: 1%;
+  font-family: LemonMilk;
+  color: #555;
+}
+
+#title-wrapper {
+  text-align: center;
+  margin-top: 15%;
+}
+
+
+
+
+
+
+
+
+/*
+
 .btn {
     float: right;
     padding: 20px;
     margin-right: 2%;
+}
+
+#button-set {
+  padding-right: 30%;
 }
 
 .one {
@@ -139,3 +208,5 @@ input:checked + .slider:before {
 .six {
   background-color: #d9534f;
 }
+
+*/
