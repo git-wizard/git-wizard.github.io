@@ -4,6 +4,7 @@
 
 <title>FPV Drone Racing</title>
 <link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 <script src="jquery-3.1.1.min.js"></script>
 
 </head>
@@ -24,12 +25,20 @@
 </section>
 -->
 
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+
 <!--Dark Mode-->
 <label id="switch_box">
 <img class="moon" src="images/moon-dark.png"/>
 <h1 class="dk-md-title">DARK MODE</h1>
 <label class="switch">
-  <input class="btn" type="checkbox">
+  <input class="btn-dark" type="checkbox">
   <div class="slider round"></div>
 </label>
 </label>
@@ -38,7 +47,7 @@
 <script>
 
 $(document).ready(function() {
-    $('.btn').on('click', function() {
+    $('.btn-dark').on('click', function() {
         $('body').toggleClass('bg');
     });
 });
