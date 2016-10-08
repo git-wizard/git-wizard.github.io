@@ -2,58 +2,52 @@
 <html>
 <head>
 <title>FPV Drone Racing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="animate.css">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 <script src="jquery-3.1.1.min.js"></script>
 </head>
 <body> 
 <!--Top menu, title, logo-->
 <section class="top">
-<div class="menu">
+<div class="menu menu-toggle">
     <div id="tabs">
         <div class="tab"></div>
         <div class="tab"></div>
         <div class="tab"></div>
     </div>
-    <div class="menu-wrapper">
-        <ul class="menu-main">
-            <li class="menu_child"><a href="#">Home</a></li>
-            <li class="menu_child"><a href="#">Videos</a></li>
-            <li class="menu_child"><a href="#">About me</a></li>
-            <li class="menu_child"><a href="#">Contact</a></li>
-        </ul>
-    </div>
 </div>
+    <ul class="slide menu-main">
+        <li class="margin-menu"><a href="#">close</a></li>
+        <div class="seperator"></div>
+        <li class="menu_child"><a href="#">Home</a></li>
+        <li class="menu_child"><a href="#">Videos</a></li>
+        <li class="menu_child"><a href="#">About me</a></li>
+        <li class="menu_child"><a href="#">Contact</a></li>
+    </ul>
 <!--Large Title-->
 <div id="title-wrapper">
 <div class="title">Wizard FPV</h1>
 <div class="fpv-racer-title">Living The FPV Life</h1>
-
 </div>
 </section>
-
-<!--Dark Mode
-<label id="switch_box">
-<img class="moon" src="images/moon-dark.png"/>s
-<h1 class="dk-md-title">DARK MODE</h1>
-<label class="switch">
-  <input class="btn-dark" type="checkbox">
-  <div class="slider round"></div>
-</label>
-</label>
--->
 <!--JQUERY-->
 <script>
-
 $(document).ready(function() {
     $('.btn-dark').on('click', function() {
         $('body').toggleClass('bg');
     });
+
+    $('.menu-toggle').on('click', function() {
+        $('.slide').animate({width: 'toggle'}, 'fast');
+    });
+    $('.margin-menu').on('click', function() {
+        $('.slide').animate({width: 'toggle'}, 'fast');
+    });
+
+
 });
-
 </script>
-
 </body>
 </html>
-
-
