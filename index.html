@@ -1,53 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>FPV Drone Racing</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="stylesheet.css">
-<link rel="stylesheet" href="animate.css">
+<meta charset="utf-8">
+<title>particles</title>
+
+<!--Stylesheets-->
+<link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-<script src="jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body> 
-<!--Top menu, title, logo-->
-<section class="top">
-<div class="menu menu-toggle">
-    <div id="tabs">
-        <div class="tab"></div>
-        <div class="tab"></div>
-        <div class="tab"></div>
-    </div>
+<body>
+
+<!--Particles-->
+<div id="particles-js">
+<!--Main Page-->
+<div class="title">Wizard FPV</div>
+<div class="title-supp">Living The FPV Life</div>   
 </div>
-    <ul class="slide menu-main">
-        <li class="margin-menu"><a href="#">close</a></li>
-        <div class="seperator"></div>
-        <li class="menu_child"><a href="#">Home</a></li>
-        <li class="menu_child"><a href="#">Videos</a></li>
-        <li class="menu_child"><a href="#">About me</a></li>
-        <li class="menu_child"><a href="#">Contact</a></li>
-    </ul>
-<!--Large Title-->
-<div id="title-wrapper">
-<div class="title">Wizard FPV</h1>
-<div class="fpv-racer-title">Living The FPV Life</h1>
+<script src="js/app.js"></script>
+
 </div>
-</section>
-<!--JQUERY-->
-<script>
-$(document).ready(function() {
-    $('.btn-dark').on('click', function() {
-        $('body').toggleClass('bg');
-    });
-
-    $('.menu-toggle').on('click', function() {
-        $('.slide').animate({width: 'toggle'}, 'fast');
-    });
-    $('.margin-menu').on('click', function() {
-        $('.slide').animate({width: 'toggle'}, 'fast');
-    });
-
-
-});
-</script>
 </body>
+
+
 </html>
