@@ -1,7 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-image: url('../images/nebula.jpg');
+  background-attachment: fixed;
+  height: 90%;
+  z-index: -1;
 }
 
 /*****FONTS*****/
@@ -14,33 +27,30 @@
 /*****PARTICLES*****/
 
 #particles-js {
-  background-image: url('../images/nebula.jpg');
   background-size: cover;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
-  position: fixed;
-  height: auto;
-  width: 1920px;
+  height: 100%;
+  position: relative;
 }
 
-/*****TITLE*****/
-
-#titles,
-.title,
-.title-supp {
-  color: #fff;
-  font-family: LemonMilk;
-  margin-left: 44%;
-  margin-top: 21%;
-  position: fixed;
-}
-
-.title {
+.titles {
+  position: absolute;
+  color: white;
   font-size: 40px;
-  margin-left: 44.2%;
+  font-family: LemonMilk;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 20%;
 }
 
-.title-supp {
-  font-size: 26px;
-  margin-top: 25%;
+#part-two {
+  height: 100%;
+}
+
+.middle-one {
+  height: 100%;
+  width: 1720px;
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: #fff;
 }

@@ -35,8 +35,7 @@ particlesJS('particles-js',
         }
       },
      }
-  },
-  "retina_detect": true
+  }
 }
 
 );
