@@ -79,13 +79,13 @@ body {
 
 @media only screen and (max-width: 600px) {
     .h1 {
-        font-size: 30px !important;
-        max-width: none !important;
+        font-size: 30px;
+        max-width: none;
     }
 
     .summary {
-        font-size: 18px !important;
-        max-width: none !important;
+        font-size: 18px;
+        max-width: none;
     }
 
     .logo img {
@@ -93,11 +93,11 @@ body {
     }
 
     .logo__business-name {
-        display: flex;
-        flex-direction: column;
-        font-family: 'Abel';
         font-size: 20px;
-        text-align: left;
+    }
+
+    .copyright {
+        font-size: 14px;
     }
 }
 
